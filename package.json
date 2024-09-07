@@ -1,0 +1,20 @@
+{
+  "name": "farmer",
+  "version": "1.0.0",
+  "description": "AI powered website for Farmers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shruti,Ashish,Ayushi",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0"
+  }
+}
