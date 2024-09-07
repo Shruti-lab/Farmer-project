@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const API_KEY = "AIzaSyB9xJMxtw8IXb5u2K5Rtt2OCMMGHeX-VSs";
+const API_KEY = "API_KEY";
 const genAI = new GoogleGenerativeAI(API_KEY);
 const genModel = genAI.getGenerativeModel({ model: "gemini-pro" });
 const chat = genModel.startChat({ generationConfig: { maxOutputTokens: 1000 } });
