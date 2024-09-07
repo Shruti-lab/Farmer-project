@@ -5,7 +5,6 @@ const cors = require('cors')
 const app = express()
 const port = 3000
 const hostname = '127.0.0.1'
-//AIzaSyB9xJMxtw8IXb5u2K5Rtt2OCMMGHeX-VSs    gemini api key
 
 
 // Set EJS as templating engine 
@@ -17,7 +16,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-//open api keysk-WEHiSxWXMl1AoZLkamfCT3BlbkFJ6LmpM6rzAMfeAdhbBd2b"
+
 // console.log(process.env.API_KEY);
 
 
